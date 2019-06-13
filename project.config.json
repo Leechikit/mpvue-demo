@@ -11,6 +11,8 @@
 	"compileType": "miniprogram",
 	"appid": "wx28e4a437d688987f",
 	"projectname": "mpvue-demo",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

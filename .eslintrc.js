@@ -19,12 +19,12 @@ module.exports = {
   ],
   // add your custom rules here
   'rules': {
-    // allow paren-less arrow functions
-    'arrow-parens': 0,
-    // allow async-await
-    'generator-star-spacing': 0,
-    // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
+    'no-debugger': 'error', // 禁止使用 debugger
+    'no-console': 'off', // 允许使用 console
+    quotes: ['error', 'single'], // 必须使用单引号，禁止使用双引号
+    semi: 'off', // 结尾必须没有分号
+    eqeqeq: ["error", "always"], // 必须使用 === 或 !==
+    'space-before-function-paren': ["error", "never"] // function前不需要加空格
   },
   globals: {
     App: true,
